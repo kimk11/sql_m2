@@ -8,7 +8,9 @@
 <body>
 	<h1>SQL이 보이는 그림책으로 모델2 만들기</h1>
 	<ol>
-		<li><a href = "<%=request.getContextPath()%>/P122Controller">p.122 쿼리 사용 페이지 요청</a></li>
+		<li><a href = "<%=request.getContextPath()%>/P122Controller">p.122 Where절 쿼리 사용 페이지 요청</a></li>
+		<li><a href = "<%=request.getContextPath()%>/P124Controller">p.124 Having절 쿼리 사용 페이지 요청</a></li>
+		<li><a href = "<%=request.getContextPath()%>/P125Controller">p.125 From절 쿼리 사용 페이지 요청</a></li>
 	</ol>
 </body>
 </html>
