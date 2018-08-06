@@ -18,8 +18,7 @@ public class IndexController extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String path = "/WEB-INF/views/index.jsp";
-		RequestDispatcher dispatcher = request.getRequestDispatcher(path);
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/views/index.jsp");
 		dispatcher.forward(request, response);
 	}
 
